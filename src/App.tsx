@@ -41,6 +41,7 @@ function App() {
 
         <ShareButton />
       </div>
+    </div>
   )
 }
 
