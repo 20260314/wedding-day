@@ -12,3 +12,9 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Tsar-a";
+  src: url("./tsar-a.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
