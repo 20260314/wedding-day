@@ -124,8 +124,8 @@ body {
       @media (width > 980px) {
         display: flex;
         flex-direction: row;
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-        margin: 10px;
+        box-shadow: none;
+        margin: 0 0 3rem 0;
         background-color: var(--light-color);
 
         opacity: 0;
