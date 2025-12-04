@@ -13,7 +13,7 @@ function App() {
   return (
         <div className="background">
       <div className="card-view">
-        <LazyDiv className="card-group">
+        <LazyDiv className="card-group cover-full">
           {/* 표지 */}
           <Cover />
 
