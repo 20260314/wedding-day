@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: "Tsar-a";
-  src: url("./tsar-a.otf") format("otf");
+  src: url("./tsar-a.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
