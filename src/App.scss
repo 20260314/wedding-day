@@ -207,3 +207,65 @@ div.break {
   height: 1rem;
 }
 
+
+/* === 강제: 카드뷰 중앙 고정 & 한 줄 레이아웃으로 통일 === */
+.card-view {
+  /* 원하는 카드 전체 너비(예: 430px)로 고정하고 중앙 배치 */
+  width: 430px !important;
+  max-width: 100%;
+  margin: 0 auto !important;
+  box-sizing: border-box;
+}
+
+/* 카드 그룹(원래 왼/오 컬럼 역할)이 항상 블록으로 동작하도록 강제 */
+.card-group {
+  display: block !important;        /* flex(2열) 해제 */
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important; /* 흰 배경 제거 */
+  box-shadow: none !important;        /* 카드 그룹 쉐도우 제거 */
+  border: none !important;
+}
+
+/* 개별 카드들 간 경계(테두리/여백/쉐도우) 제거하고 카드 폭을 100%로 채움 */
+.card {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0.8rem 0.8rem !important; /* 필요하면 조정 */
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* 카드 내부에서 실제 콘텐츠(예: calendar, gallery 등)의 배경을 흰색으로 유지하고 싶다면
+   아래처럼 .card > .inner 같은 규칙을 적용(프로젝트 구조에 맞게 조정) */
+/*
+.card > .inner {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0 0.2rem rgba(0,0,0,0.06);
+}
+*/
+
+/* 카드들 사이에 가는 선(구분선)이 보이면 제거 */
+.card + .card {
+  border-top: none !important;
+}
+
+/* 이미지/컨텐츠가 좌측에 몰려 보일 때 중앙 정렬 보정 */
+.background {
+  align-items: center; /* 이미 설정되어 있을텐데, 두 번 들어가도 안전 */
+}
+
+/* 모바일에서 카드가 너무 빡빡하면 여백 복원 */
+@media (max-width: 500px) {
+  .card-view {
+    width: 100vw !important;
+    padding: 0 0.5rem;
+  }
+  .card {
+    padding: 0.6rem !important;
+  }
+}
