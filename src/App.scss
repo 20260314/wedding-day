@@ -107,6 +107,7 @@ body {
     width: 980px;
     margin: 0 auto;
     text-align: center;
+    background-color: var(--light-color);
 
     @media (max-width: 980px) {
       width: 500px;
