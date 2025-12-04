@@ -117,7 +117,14 @@ body {
       width: 100vw;
     }
 
+    .card-group .card.cover-card {
+  padding: 0 !important;
+  border: none !important;
+  width: 100% !important;
+}
+
     .card-group {
+      
       position: relative;
       @media (width > 980px) {
         display: block;
