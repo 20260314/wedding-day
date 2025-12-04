@@ -4,7 +4,7 @@
 
   .image-wrapper {
     width: 100%;
-    aspect-ratio: 3 / 4;
+    height: auto !important;
     overflow: hidden;
     display: flex;
     align-items: center;
