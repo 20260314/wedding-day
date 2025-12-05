@@ -21,9 +21,11 @@
   --red-color: #ff0000;
   --black-color: #000000;
 
+
   font-family: "PretendardR";
- font-size: unquote("clamp(16px, 4vw, 22px)");
-  }
+  font-size: clamp(16px, 4vw, 22px);
+  
+
 }
 
 @media print {
