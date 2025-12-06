@@ -1,5 +1,5 @@
 import coverImage from "./cover.png"
-import photo1 from "./photo1.png"
+import photo1 from "./photo1.jpg"
 import image2 from "./image2.png"
 import image3 from "./image3.png"
 import image4 from "./image4.png"
