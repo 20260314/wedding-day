@@ -86,7 +86,7 @@ body {
   overflow-y: auto;
   height: 100vh;
   &.modal-open {
-    overflow-y: auto;
+    overflow-y: hidden;
   }
 
   -webkit-font-smoothing: antialiased;
@@ -107,6 +107,7 @@ body {
   .card-view {
     width: 980px;
     margin: 0 auto;
+    margin-bottom: 2rem;
     text-align: center;
     background-color: var(--light-color);
 
