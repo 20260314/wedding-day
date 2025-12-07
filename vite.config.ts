@@ -23,7 +23,7 @@ try {
 } catch (e) {
   base = pkg.homepage || "/"
 }
-let base: "/wedding-invitation/"
+
 
 // https://vite.dev/config/
 export default defineConfig({
