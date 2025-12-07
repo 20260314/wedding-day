@@ -2,7 +2,6 @@ import { Cover } from "./component/cover"
 import { Location } from "./component/location"
 import "./App.scss"
 import { Invitation } from "./component/invitation"
-import { Calendar } from "./component/calendar"
 import { Gallery } from "./component/gallery"
 import { Information } from "./component/information"
 import { LazyDiv } from "./component/lazyDiv"
@@ -22,11 +21,6 @@ function App() {
           {/* 모시는 글 */}
           <Invitation />
         </LazyDiv>
-
-        <LazyDiv className="card-group">
-          {/* 결혼식 날짜 (달력) */}
-          <Calendar />
-          </LazyDiv>
         
  <LazyDiv className="card-group">
           {/* 겔러리 */}
