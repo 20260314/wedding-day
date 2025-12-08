@@ -34,7 +34,7 @@ export const Location = () => {
             <br />
             <b>택시</b>를 이용해 방문해주시기를 부탁드립니다.
           </div>
-
+      </div>
           
     
 
