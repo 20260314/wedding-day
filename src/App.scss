@@ -271,7 +271,7 @@ div.break {
   align-items: center; /* 이미 설정되어 있을텐데, 두 번 들어가도 안전 */
 }
 
-/* 모바일에서 카드가 너무 빡빡하면 여백 복원 */
+/* 모바일에서 카드가 너무 빡빡하면 여백 복원 */ //여기는 순수 모바일버전 여백조정임 pc는 반영안됨
 @media (max-width: 500px) {
   .card-view {
     width: 100vw !important;
