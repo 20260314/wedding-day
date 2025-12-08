@@ -245,6 +245,7 @@ div.break {
   max-width: 100% !important;
   margin: 0 !important;
   padding: 0.8rem 0.8rem !important; /* 필요하면 조정 */
+  padding-bottom: 3rem !important;
   background: transparent !important;
   box-shadow: none !important;
   border: none !important;
@@ -275,7 +276,6 @@ div.break {
   .card-view {
     width: 100vw !important;
     padding: 0;
-    padding-bottom: 3rem !important;
   }
   .card {
     padding: 1rem !important;
