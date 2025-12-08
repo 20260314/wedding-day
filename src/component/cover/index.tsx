@@ -34,7 +34,7 @@ export const Cover = () => {
       </div>
       <div className="subtitle">Wedding Day</div>
       <div className="info">{WEDDING_DATE.format(WEDDING_DATE_FORMAT)}</div>
-      <div className="info">{LOCATION}</div>
+      //<div className="info">{LOCATION}</div>
     </LazyDiv>
   )
 }
