@@ -20,7 +20,7 @@ export const Location = () => {
       </LazyDiv>
 
       <LazyDiv className="card location">
-        <div classname="location-info">
+        <div className="location-info">
           
         
             <div className="heading">대중교통</div>
@@ -38,9 +38,9 @@ export const Location = () => {
           
     
 
-          <div classname="location-info">
+          <div className="location-info">
             <div className="heading">자가용</div>
-            <div />
+         
             <div className="content">
             <b>경기도 안성시 공도읍 신두만곡로 101</b>
             <br />
@@ -48,10 +48,11 @@ export const Location = () => {
             <br />
               주소를 정확히 검색해 주시기 바랍니다.
             <br />
+            </div>
 
 
             <div />
-            <div classname="content">
+            <div className="content">
             주차공간이 협소한 관계로 가능하신 경우
             <br />
             일행분들과 카풀해주신다면 감사드리겠습니다.
