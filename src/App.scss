@@ -209,6 +209,7 @@ h2 {
   font-weight: normal;
   &.english {
     font-family: "TsarR";
+    letter-spacing: 0.1rem; //타이틀 자간설정 초기=0
   }
 }
 
