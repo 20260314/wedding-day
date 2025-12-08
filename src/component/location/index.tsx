@@ -42,7 +42,6 @@ export const Location = () => {
             <br />
             일행분들과 카풀해주신다면 감사드리겠습니다.
           </div>
-        </div>
       </LazyDiv>
     </>
   )
