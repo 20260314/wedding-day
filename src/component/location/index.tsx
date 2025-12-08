@@ -20,7 +20,6 @@ export const Location = () => {
       </LazyDiv>
 
       <LazyDiv className="card location">
-        <div className="location-info">
           <div className="content">
             <div className="heading">대중교통</div>
             회관으로 들어오는 길은 인도가 없어서
