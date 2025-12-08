@@ -7,7 +7,7 @@ export const Gallery = () => {
   const { openModal, closeModal } = useModal()
   const [expanded, setExpanded] = useState(false)
 
-  const visibleCount = expanded ? GALLERY_IMAGES.length : 12 // 3열 × 4행 = 12개
+  const visibleCount = expanded ? GALLERY_IMAGES.length : 9 // 3열 × 4행 = 12개
 
   return (
     <LazyDiv className="card gallery instagram-gallery">
@@ -37,7 +37,7 @@ export const Gallery = () => {
       </div>
 
       {/* Gradient + more button */}
-      {!expanded && GALLERY_IMAGES.length > 12 && (
+      {!expanded && GALLERY_IMAGES.length > 9 && (
         <div className="more-wrapper">
           <div className="fade" />
           <button className="more-btn" onClick={() => setExpanded(true)}>
