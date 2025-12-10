@@ -251,12 +251,39 @@ $transition-duration: 0.3s;
 
 
 //지피티가 준 좌우 버튼 코드
-.nav-buttons {
+.photo-view {
+  position: relative;
   display: flex;
-  justify-content: space-between;
-  margin-top: 16px;
+  align-items: center;
+  justify-content: center;
 }
 
-.nav-buttons .arrow.right {
-  transform: scaleX(-1);
+.photo-large {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 10px;
+}
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.4);
+  border-radius: 999px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+
+  &.left { left: 10px; }
+  &.right { right: 10px; }
+
+  .arrow {
+    width: 24px;
+    height: 24px;
+    color: white;
+  }
+
+  .arrow.right {
+    transform: rotate(180deg);
+  }
 }
