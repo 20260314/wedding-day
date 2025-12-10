@@ -16,7 +16,7 @@ export const Gallery = () => {
 <p className="title-kr">갤러리</p>
 
       {/* --- thumbnail grid --- */}
-      <div className={grid ${expanded ? "expanded" : ""}}>
+      <div className={`grid ${expanded ? "expanded" : ""}`}>
         {GALLERY_IMAGES.slice(0, visibleCount).map((img, idx) => (
           <div
             key={idx}
@@ -27,13 +27,13 @@ export const Gallery = () => {
                 closeOnClickBackground: true,
                 content: (
                   <div className="photo-view">
-                    <img src={img} alt={${idx}} />
+                    <img src={img} alt={`${idx}`} />
                   </div>
                 ),
               })
             }
           >
-            <img src={img} alt={${idx}} draggable={false} />
+            <img src={img} alt={`${idx}`} draggable={false} />
           </div>
         ))}
       </div>
