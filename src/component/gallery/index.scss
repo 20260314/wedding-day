@@ -316,3 +316,40 @@ $transition-duration: 0.3s;
   }
 }
 
+
+.photo-view {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-large {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 10px;
+}
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.4);
+  border-radius: 999px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+
+  &.left { left: 10px; }
+  &.right { right: 10px; }
+
+  .arrow {
+    width: 24px;
+    height: 24px;
+    color: white;
+  }
+
+  .arrow.right {
+    transform: rotate(180deg);
+  }
+}
