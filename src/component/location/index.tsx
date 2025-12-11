@@ -55,6 +55,18 @@ export const Location = () => {
           </div>
         </div>
 
+        {/*온라인*/}
+        <div className="location-block">
+          <div className="heading">온라인</div>
+          <div class="line"></div>
+          <div className="content">
+            줌 (ZOOM) 으로도 결혼식이 생중계됩니다.
+            <br />
+            회의 ID: 823 6639 8235
+            <br />
+            암호: 0314
+          </div>
+        </div>
       </LazyDiv>
     </>
   )
