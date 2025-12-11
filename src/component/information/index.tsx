@@ -1,9 +1,8 @@
-import { STATIC_ONLY } from "../../env"
 import { LazyDiv } from "../lazyDiv"
 
-export const Information1 = () => {
+export const Information = () => {
   return (
-    <>
+    <LazyDiv className="card notice">
       <h2 className="english">Notice</h2>
       <p className="title-kr">안내사항</p>
 
@@ -14,16 +13,6 @@ export const Information1 = () => {
         <br />
         저희는 축의금 대신 축하해주시는 마음만 소중히 받겠습니다.
       </div>
-    </>
-  )
-}
-
-export const Information = () => {
-  return (
-    <>
-      <LazyDiv className="card information">
-        <Information1 />
-      </LazyDiv>
-    </>
+    </LazyDiv>
   )
 }
