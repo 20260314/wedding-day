@@ -15,7 +15,7 @@ import {
 const NAVER_MAP_CLIENT_ID = import.meta.env.VITE_NAVER_MAP_CLIENT_ID //지피티가준거임
 
 export const Map = () => {
-  return NAVER_MAP_CLIENT_ID ? <NaverMap /> : <div>Map is not available</div>
+  return <NaverMap />
 }
 
 const NaverMap = () => {
