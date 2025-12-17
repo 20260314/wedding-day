@@ -10,7 +10,6 @@ export const EndingImage = () => {
           alt="ending image"
         />
       </div>
-    </section>
    </LazyDiv>
   )
 }
