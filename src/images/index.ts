@@ -11,7 +11,7 @@ import image9 from "./image9.png"
 import image10 from "./image10.png"
 import image11 from "./image11.png"
 import image12 from "./image12.png"
-import ending12 from "./ending1-2.png"
+import ending32 from "./ending3-2.jpg"
 
 export const COVER_IMAGE = coverImage
 
@@ -31,5 +31,5 @@ export const GALLERY_IMAGES = [
 ]
 
 export const ENDING_IMAGE = {
-  "ending1-2": ending12,
+  "ending3-2": ending32,
 }
