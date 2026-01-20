@@ -158,3 +158,16 @@
 }
 
 
+.notice {
+   .notice-title {
+     margin-top: -1rem;
+  }
+  .notice-card {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--dark-color);
+    line-height: 1.8rem;
+  }
+}
+
+
