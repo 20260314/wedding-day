@@ -8,10 +8,8 @@ export const Location = () => {
       <LazyDiv className="card location">
         <h2 className="english">Information</h2>
         <p className="title-kr">안내 말씀</p>
-      </LazyDiv>
 
       {/* --- 안내문 --- */}
-      <LazyDiv className="card location">
 
         {/*안내*/}
 
