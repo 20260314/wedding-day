@@ -14,11 +14,11 @@ export const Location = () => {
       <LazyDiv className="card location">
 
         {/*안내*/}
-         <div className="notice">
-         <div className="notice-card">
+
+         <div className="notice-block">
            축하해주시는 모든 소중한 분들을 모시고 싶었지만,
          </div>
-       </div>
+
         
            
         
