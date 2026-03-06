@@ -42,7 +42,7 @@ export const Location = () => {
           <div className="heading">줌 ZOOM 주소</div>
           <div class="line"></div>
           <div className="content">
-            회의 ID: 823 6639 8235
+            회의 ID: 306 388 3010
             <br />
             암호: 0314
           </div>
